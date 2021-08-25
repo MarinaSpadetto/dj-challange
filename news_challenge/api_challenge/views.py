@@ -44,6 +44,7 @@ class ArticleViewSet(viewsets.ModelViewSet):
 
 
 class ArticlesViewSet(generics.ListAPIView):
+    
     authentication_classes = [TokenAuthentication]
     permission_classes = [permissions.AllowAny]
     queryset = Article.objects.all()

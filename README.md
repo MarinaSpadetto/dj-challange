@@ -1,3 +1,43 @@
+This rest API provides a simplified version of a news provider. Contains a basic CRUD that has login with token authentication.
+Anonymous users can login via POST and receive an authentication token. Authenticated users have permissions to create, read, update, and delete authors and articles. Anonymous users can only consume the API to query articles without access to the body field.
+
+To run this API, follow these steps.
+
+  1 - Clone the repository locally.
+
+      https://github.com/MarinaSpadetto/dj-challange.git
+
+  2- Enter the local repository
+
+      cd dj-challange
+
+  3 - Access the terminal or cmd and run and to create the virtualenv.
+
+      python3 -m venv venv
+
+  4 - Activate virtualenv.
+
+      Linux: source venv/bin/activate
+      Windows: cd venv/bin/Scripts/activate
+
+  5 - After virtualenv is activated, install the requirements.txt
+
+      pip install -r requirements.txt
+
+  6 - Perform migrations to create the database.
+
+      python manage.py migrate
+
+  7 - Create a super user for the application.
+
+      python manage.py createsuperuser
+
+  8 - And run the API.
+
+      python manage.py runserver
+
+Note that the application is running http://localhost:8000.
+
 # Jungle Devs - Django Challenge #001
 
 ## Description

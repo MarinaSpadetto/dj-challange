@@ -24,7 +24,7 @@ To run this API, follow these steps.
 
       pip install -r requirements.txt
 
-  6 - Perform migrations to create the database.
+  6 - Access the news_challenge folder and perform migrations to create the database.
 
       python manage.py migrate
 

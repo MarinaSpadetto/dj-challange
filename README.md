@@ -5,7 +5,7 @@ To run this API, follow these steps.
 
   1 - Clone the repository locally.
 
-      https://github.com/MarinaSpadetto/dj-challange.git
+      git clone https://github.com/MarinaSpadetto/dj-challange.git
 
   2- Enter the local repository
 
